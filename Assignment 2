@@ -1,0 +1,10 @@
+n=int(input())
+s=[]
+t=[]
+for i in range (n):
+     s.append(int(input())
+for i in s:
+    if i not in t:
+        t.append(i)
+t.sort(reverse=True)
+print (t[l])
